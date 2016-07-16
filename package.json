@@ -1,0 +1,33 @@
+{
+  "name": "drag-drop-polyfill",
+  "version": "1.1.1",
+  "description": "Shims drag-drop events for mobile webkit browsers (iOS).",
+  "main": "ios-drag-drop.js",
+  "homepage": "http://timruffles.github.io/ios-html5-drag-drop-shim/demo/",
+  "scripts": {
+    "preinstall": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/timruffles/ios-html5-drag-drop-shim.git"
+  },
+  "keywords": [
+    "dragdrop",
+    "drag-drop",
+    "html5",
+    "shim",
+    "mobile"
+  ],
+  "author": "Tim Ruffles <me@truffles.me.uk>",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/timruffles/ios-html5-drag-drop-shim/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2"
+  }
+}
